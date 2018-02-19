@@ -8,4 +8,7 @@ Vår gemensamma anteckningstjottahejt.
 Vill du slå ihop dina anteckningar med någon annans så använd "merge branches".
 
 Tips!!
-Använd Atom, har förinbyggt git hanterings system med all hantering ni behöver + git syntax markdown.
+Använd `Atom`, har förinbyggt git hanterings system med all hantering ni behöver + git syntax markdown.
+
+För snyggare anteckningar kolla markup här:
+https://guides.github.com/features/mastering-markdown/

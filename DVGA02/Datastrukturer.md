@@ -73,17 +73,14 @@ Vector<E>() Skapar en tom lista av element av typen E
 * .remove(E element) Tar bort första elementet i listan
 * .remove(int index) tar bort element på platsen index
 * .size() Returnerar storleken på listan
-<br>
-text
-<br>
-Kolla mer på Wrapper-Klassen Integer
 
-			Fördelar || Nackdelar
-		Jämförelse Array & Vector samt ArrayList
-Arrayer ör mer effektiva || en storlek måste anges
+
+
+####Jämförelse Array & Vector samt ArrayList
+Arrayer är mer effektiva || en storlek måste anges
 Vector & ArrayList är dynamiska, de kan växa och krympa etc || de är mindre effektiva
 
-		Jämförelse Array & Länkade Listor
+####Jämförelse Array & Länkade Listor
 Arrayer är effektiva vid hämtning av data || ineffektiva vid insättning och borttagning
 Länkade Listor är effektiva vid insättning och borttagning || ineffektiva vid hämtning
 

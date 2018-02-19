@@ -48,6 +48,7 @@ I java finns flera datastrukturer som modellerar en lista:
 ### DT:n Lista
 Datat i en lista utgörs av en ordnad sekvens av element.
 Operationer utgörs exempelvis av:
+
 	* insättning av element (På en godtycklig plats)
 	* borttagning av element (På en godtycklig plats)
 	* borttagning av specifikt element
@@ -68,6 +69,7 @@ Vector <Ellipse> ellipselist = new Vector(Ellipse)();
 Klassen Vector finns i paketet java.util.
 
 Vector<E>() Skapar en tom lista av element av typen E
+
 	* .addElement( E element) Lägger till ett element av E sist i listan
 	* .elementAt(int index) Tar bort ett element på positionen index
 	* .remove(E element) Tar bort första elementet i listan
@@ -92,6 +94,7 @@ Länkade Listor är effektiva vid insättning och borttagning || ineffektiva vid
 ### Designmönstret Iterator Pattern
 Med Iterator-mönstret kan en klient komma åt innehållet i en datastruktur utan att känna till detaljerna om datastrukturernas uppbyggnad
 I java implementeras Iterator-mönstret som gränssnittet Iterator
+
 	- .hasNext()
 	- .next()
 	- .remove()

@@ -25,3 +25,11 @@ Tre viktiga subträd till Throwable:
   Error: Motsvara problem som vi varken kan undvika eller lösa.
   Exception: kompilatorn kontrollerar om vi implementerar hanterare för dessa undantag
   RuntimeException: Kompilatorn tvingar oss inte att ha hanterar för dessa undantag.
+
+
+  Exempel på vanliga abstrakta datatyper är:
+
+  	 mängd
+  	 sekvens (lista, kö, stack)
+  	 träd (binärt sökträd, AVL-träd, B-träd)
+  	 graf

@@ -37,10 +37,11 @@ När man implementerar en ADT kan man behöva en datastruktur.
 En datastruktur kan modellera en abstrakt datatyp
 
 I java finns flera datastrukturer som modellerar en lista:
-	 Vektor   (Bygger på array)
-	 ArraList (Bygger på en array)
-	 DefaultListModel (Bygger på en Vector)
-	 LinkedList (Bygger på länkade noder)
+
+	 * Vektor   (Bygger på array)
+	 * ArraList (Bygger på en array)
+	 * DefaultListModel (Bygger på en Vector)
+	 * LinkedList (Bygger på länkade noder)
 
 
 ### DT:n Lista

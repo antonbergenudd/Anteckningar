@@ -8,7 +8,10 @@ Ex. sant implicerar sant.
 Ex. operation: e + e' => e'' plus är operatorn (binär)
 "ett heltal plus ett annat heltal ger ett tredje heltal"
 
-## Exempel på abstrakta data-typer
+### ADT:n Lista
+Datat i en lista utgörs av en ordnad sekvens av ett element.
+
+### Exempel på abstrakta data-typer
 * Mängd
 * Sekvens (lista, kö, stack)
 * Träd (binärt sökträd, AVL-träd, B-träd)
@@ -25,9 +28,6 @@ En datastruktur kan modellera en abstrakt datatyp
 * ArrayList (bygger på en array)
 * DefaultList (bygger på Vector)
 
-## ADT:n Lista
-Datat i en lista utgörs av en ordnad sekvens av ett element.
-
 ## Klassen Vector
 En datastruktur som modellerar en lista.
 Det är en typ som kan ta emot andra typer.
@@ -43,9 +43,9 @@ ellipseList = new Vector <Ellipse> ();
 
 Länkade noder - en länkad lista ökar lätt dynamiskt
 + effektiv vid insättning
--ineffektiv vid hämtning
+- ineffektiv vid hämtning
 
-## Array
+### Array
 + effektiv vid hämtning
 - ineffektiv vid insättning och borttagning
 Generiska List-klasser vs. List-klasser med Object

@@ -2,9 +2,9 @@
 
 ### När det går fel
 När vi använder Input/Output från/till användaren kan saker och ting gå fel som är utanför programmerarns kontroll, Exempel:
-  * Fel typ av indata
-  * Filen man försöker öppna finns inte
-  * Användaren har inte rättigheter att öppna eller skriva till en viss fil
+   * Fel typ av indata
+   * Filen man försöker öppna finns inte
+   * Användaren har inte rättigheter att öppna eller skriva till en viss fil
 
 I java skapar systemet ett undantag(exception) som är ett objekt som innehåller information om felet eller den ovanliga situation som inträffat då programmet körs.
 

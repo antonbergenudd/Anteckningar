@@ -17,7 +17,6 @@ Datat i en lista utgörs av en ordnad sekvens av ett element.
 * Träd (binärt sökträd, AVL-träd, B-träd)
 * graf
 
-
 ## Datastruktur
 En samling data (sammanbundna), lagringsplats.
 När man implementerar en ADT kan man behöva en datastruktur.

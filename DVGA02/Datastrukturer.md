@@ -8,7 +8,7 @@ ADT (abstrakt datatyp) är abstrakt och är inte kopplade till något programmsp
 Datastrukturer är konkreta och till de flesta programmeringsspråk finns en eller flera datastrukturer
 	- Betoning på lagringsmetoder
 
-##ADT(Abstrakt datatyp)
+## ADT(Abstrakt datatyp)
 En programspråksoberoende beskrivning av en mängd
 	- data
 	- operationer på denna data
@@ -29,7 +29,7 @@ Exempelvis finns olika list-implementationer i Java.
 
 I Java finns också olika gränssnitt för att underlätta implementerandes av ADT:er
 
-##Datastruktur
+## Datastruktur
 En datastruktur är en samling data (sammanbundna på något sätt) med ett namn och en mängd operationer-
 
 Operationerna kan variera från datastruktur till datastruktur men inkluderar metoder för att ge till datan.
@@ -45,7 +45,7 @@ I java finns flera datastrukturer som modellerar en lista:
 - LinkedList (Bygger på länkade noder)
 
 
-##ADT:n Lista
+## DT:n Lista
 Datat i en lista utgörs av en ordnad sekvens av element.
 Operationer utgörs exempelvis av:
 	- insättning av element (På en godtycklig plats)
@@ -57,7 +57,7 @@ Operationer utgörs exempelvis av:
 	- platsbestämning av ett visst element
 	- utplockning av element på en viss plats
 
-##Klassen Vector
+## Klassen Vector
 Klassen Vector är en datastruktur som modellerar en lista
 
 Klassen Vector är en generisk klass, vilket innebär att man med den kan skapa alla typer av listor(exempelvis heltalslistor, ellipslistor, etc).
@@ -86,7 +86,7 @@ Arrayer är effektiva vid hämtning av data || ineffektiva vid insättning och b
 Länkade Listor är effektiva vid insättning och borttagning || ineffektiva vid hämtning
 
 
-##Designmönstret Iterator Pattern
+## Designmönstret Iterator Pattern
 Med Iterator-mönstret kan en klient komma åt innehållet i en datastruktur utan att känna till detaljerna om datastrukturernas uppbyggnad
 I java implementeras Iterator-mönstret som gränssnittet Iterator
 .hasNext()

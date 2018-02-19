@@ -1,5 +1,3 @@
-# Java - 19/02/2017
-
 # ADT-er och datatyper
 
 ## ADT (abstrakt datatyp)
@@ -59,3 +57,6 @@ Generiska List-klasser vs. List-klasser med Object
 * isEmpty() - check list
 * remove(E element) - removes given element
 * size() - returns size of array
+
+
+´19/02/2017´

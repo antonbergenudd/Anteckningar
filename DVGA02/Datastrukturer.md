@@ -48,14 +48,14 @@ I java finns flera datastrukturer som modellerar en lista:
 ### DT:n Lista
 Datat i en lista utgörs av en ordnad sekvens av element.
 Operationer utgörs exempelvis av:
-	- insättning av element (På en godtycklig plats)
-	- borttagning av element (På en godtycklig plats)
-	- borttagning av specifikt element
-	- sökning av element
-	- beräkning av listans storlek
-	- kontroll av huruvida listan är tom eller inte
-	- platsbestämning av ett visst element
-	- utplockning av element på en viss plats
+- insättning av element (På en godtycklig plats)
+- borttagning av element (På en godtycklig plats)
+- borttagning av specifikt element
+- sökning av element
+- beräkning av listans storlek
+- kontroll av huruvida listan är tom eller inte
+- platsbestämning av ett visst element
+- utplockning av element på en viss plats
 
 ### Klassen Vector
 Klassen Vector är en datastruktur som modellerar en lista
@@ -68,11 +68,11 @@ Vector <Ellipse> ellipselist = new Vector(Ellipse)();
 Klassen Vector finns i paketet java.util.
 
 Vector<E>() Skapar en tom lista av element av typen E
-.addElement( E element) Lägger till ett element av E sist i listan
-.elementAt(int index) Tar bort ett element på positionen index
-.remove(E element) Tar bort första elementet i listan
-.remove(int index) tar bort element på platsen index
-.size() Returnerar storleken på listan
+* .addElement( E element) Lägger till ett element av E sist i listan
+* .elementAt(int index) Tar bort ett element på positionen index
+* .remove(E element) Tar bort första elementet i listan
+* .remove(int index) tar bort element på platsen index
+* .size() Returnerar storleken på listan
 
 Kolla mer på Wrapper-Klassen Integer
 

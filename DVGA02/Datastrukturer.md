@@ -73,9 +73,9 @@ Vector<E>() Skapar en tom lista av element av typen E
 * .remove(E element) Tar bort första elementet i listan
 * .remove(int index) tar bort element på platsen index
 * .size() Returnerar storleken på listan
-asd
 <br>
-asd
+text
+<br>
 Kolla mer på Wrapper-Klassen Integer
 
 			Fördelar || Nackdelar

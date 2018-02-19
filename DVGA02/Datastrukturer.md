@@ -77,11 +77,15 @@ Vector<E>() Skapar en tom lista av element av typen E
 
 
 #### Jämförelse Array & Vector samt ArrayList
-Arrayer är mer effektiva || en storlek måste anges <br>
+
+Arrayer är mer effektiva || en storlek måste anges
+
 Vector & ArrayList är dynamiska, de kan växa och krympa etc || de är mindre effektiva
 
 #### Jämförelse Array & Länkade Listor
-Arrayer är effektiva vid hämtning av data || ineffektiva vid insättning och borttagning <br>
+
+Arrayer är effektiva vid hämtning av data || ineffektiva vid insättning och borttagning
+
 Länkade Listor är effektiva vid insättning och borttagning || ineffektiva vid hämtning
 
 

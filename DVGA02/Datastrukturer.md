@@ -92,6 +92,6 @@ Länkade Listor är effektiva vid insättning och borttagning || ineffektiva vid
 ### Designmönstret Iterator Pattern
 Med Iterator-mönstret kan en klient komma åt innehållet i en datastruktur utan att känna till detaljerna om datastrukturernas uppbyggnad
 I java implementeras Iterator-mönstret som gränssnittet Iterator
-	* .hasNext()
-	* .next()
-	* .remove()
+	- .hasNext()
+	- .next()
+	- .remove()

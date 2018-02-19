@@ -2,9 +2,9 @@
 
 ### När det går fel
 När vi använder Input/Output från/till användaren kan saker och ting gå fel som är utanför programmerarns kontroll, Exempel:
-  Fel typ av indata
-  Filen man försöker öppna finns inte
-  Användaren har inte rättigheter att öppna eller skriva till en viss fil
+   Fel typ av indata
+   Filen man försöker öppna finns inte
+   Användaren har inte rättigheter att öppna eller skriva till en viss fil
 
 I java skapar systemet ett undantag(exception) som är ett objekt som innehåller information om felet eller den ovanliga situation som inträffat då programmet körs.
 
@@ -20,6 +20,6 @@ Alternativet är att använda en try - catch istället för en if-sats
 
 Tre viktiga subträd till Throwable
 
-  Error: Motsvara problem som vi varken kan undvika eller lösa.
-  Exception: kompilatorn kontrollerar om vi implementerar hanterare för dessa undantag
-  RuntimeException: Kompilatorn tvingar oss inte att ha hanterar för dessa undantag.
+   Error: Motsvara problem som vi varken kan undvika eller lösa.
+   Exception: kompilatorn kontrollerar om vi implementerar hanterare för dessa undantag
+   RuntimeException: Kompilatorn tvingar oss inte att ha hanterar för dessa undantag.

@@ -18,10 +18,10 @@ En programspråksoberoende beskrivning av en mängd
 Hur värde/värden och operationer precis som primitiva datatyper implementeras med klasser i objekt-orienterade programmeringsspråk.
 
 Exempel på vanliga abstrakta datatyper är:
-	- mängd
-	- sekvens (lista, kö, stack)
-	- träd (binärt sökträd, AVL-träd, B-träd)
-	- graf
+1. mängd
+1. sekvens (lista, kö, stack)
+1. träd (binärt sökträd, AVL-träd, B-träd)
+1. graf
 
 Många programmeringsspråk har inbyggda implementationer av vissa ADT:er
 

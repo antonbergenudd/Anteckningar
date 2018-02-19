@@ -1,6 +1,6 @@
-ADT-er och datatyper
+#ADT-er och datatyper
 
-ADT (abstrakt datatyp)
+##ADT (abstrakt datatyp)
 En programspråksoberoende beskrivning av en mängd
 Data
 Op. På data
@@ -15,7 +15,7 @@ Exempel på abstrakta data-typer
 -	graf
 
 
-Datastruktur
+##Datastruktur
 En samling data (sammanbundna), lagringsplats.
 När man implementerar en ADT kan man behöva en datastruktur.
 En datastruktur kan modellera en abstrakt datatyp
@@ -25,10 +25,10 @@ Datastrukturer som modellerar en lista ex.
 -	ArrayList (bygger på en array)
 -	DefaultList (bygger på Vector)
 
-ADT:n Lista
+##ADT:n Lista
 Datat i en lista utgörs av en ordnad sekvens av ett element.
 
-Klassen Vector
+##Klassen Vector
 En datastruktur som modellerar en lista.
 Det är en typ som kan ta emot andra typer.
 Vector finns i paketet java.util
@@ -39,7 +39,7 @@ ellipseList = new Vector <Ellipse> ();
 
 //En lista som tar emot ellipser och dubbelkollar så att det är en ellipse.
 
-Array vs. Länkande noder
+## Array vs. Länkande noder
 
 Länkade noder - en länkad lista ökar lätt dynamiskt
 + effektiv vid insättning
@@ -49,6 +49,7 @@ Array
 +effektiv vid hämtning
 -ineffektiv vid insättning och borttagning
 Generiska List-klasser vs. List-klasser med Object
+
 
 
 

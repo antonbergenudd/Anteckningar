@@ -160,28 +160,28 @@ I Paktetet java.util finns gränssnittet:
 * KOlla om stacken är tom eller inte
 
 #### ADT:n Beskriven med kontrakt
-###### Skapar en tom stack
+##### Skapar en tom stack
     Beskrivning: Skapar en tom stack
     Pre: sant
     Post: en ny tom stack skaps
     Stack()
-###### Lägg till ett element
+##### Lägg till ett element
     Beskrivning: Lägger till ett element på stacken
     Pre: sant
     Post: elementet är lagt överst på stacken
     push(in: element)
-###### Ta bort ett element
+##### Ta bort ett element
     Beskrivning: Tar bort elementet överst på stacken.
     Pre: !isEmpty()
     Post: elementet överst på stacken är borttaget och returnerat
     pop(ut: element)
-###### Kolla om stacken är tom
+##### Kolla om stacken är tom
     Beksrivning: Kollar om stacken är tom
     Pre: sant
     Post: resultat = sant om stacken är tom, annars falskt
     isEmpty(ut: boolskt värde)
 
-### Iplememtationer av ADT:er
+### Iplementationer av ADT:er
 
 En ADT kan impementeras på en många olika sätt.
 

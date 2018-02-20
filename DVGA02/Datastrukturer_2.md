@@ -179,7 +179,7 @@ I Paktetet java.util finns gränssnittet:
     Beksrivning: Kollar om stacken är tom
     Pre: sant
     Post: resultat = sant om stacken är tom, annars falskt
-    isEmpty(ut: boolskt värde)
+    isEmpty(ut: boolskt värde)  
 
 ### Iplementationer av ADT:er
 
@@ -189,7 +189,7 @@ Bur man implemeterar en ADT spelar inte någon större roll så länge man får 
 
 Exempelvis kan ADT:n Stack implementeras med hjälp av:
 * lista
-* array
+* array 
 * noder
 
 #### Stackimplementation med Lista

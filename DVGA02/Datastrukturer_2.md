@@ -1,4 +1,4 @@
-#Datastrukturer 2
+# Datastrukturer 2
 ###### 20-02-2018
 
 ### ADT:n Mängd (På engelska kallas det bland annat Bag)
@@ -160,7 +160,7 @@ I Paktetet java.util finns gränssnittet:
 * KOlla om stacken är tom eller inte
 
 #### ADT:n Beskriven med kontrakt
-##### Skapar en tom stack
+#####  Skapar en tom stack
     Beskrivning: Skapar en tom stack
     Pre: sant
     Post: en ny tom stack skaps

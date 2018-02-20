@@ -45,7 +45,7 @@ Metod för säker inmatning av heltal:
     return number;
     }
 
-
+#### Exempel på flera catch satser till en try
     try{
       //Java-satser som kan kasta undantag
     }catch(...){

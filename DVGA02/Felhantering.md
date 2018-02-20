@@ -20,13 +20,13 @@ Detta fel kan vi förutsäga även om felet kanske inte händer så ofta. För f
 
 Alternativet är att använda en try - catch istället för en if-sats
 
-Tre viktiga subträd till Throwable:
+##### Tre viktiga subträd till Throwable:
 
     Error: Motsvara problem som vi varken kan undvika eller lösa.
     Exception: kompilatorn kontrollerar om vi implementerar hanterare för dessa undantag
     RuntimeException: Kompilatorn tvingar oss inte att ha hanterar för dessa undantag.
 
-Metod för säker inmatning av heltal:
+##### Metod för säker inmatning av heltal:
 
     public int secureInt(){
     int number = 0;

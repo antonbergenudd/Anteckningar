@@ -25,3 +25,33 @@ Tre viktiga subträd till Throwable:
     Error: Motsvara problem som vi varken kan undvika eller lösa.
     Exception: kompilatorn kontrollerar om vi implementerar hanterare för dessa undantag
     RuntimeException: Kompilatorn tvingar oss inte att ha hanterar för dessa undantag.
+
+Metod för säker inmatning av heltal:
+
+    public int secureInt(){
+    int number = 0;
+    boolean count = true;
+    Scanner scanner ) new Scanner(System.in);
+
+    while(count){
+      try{
+        number = scanner.nextInt();
+        count = false;
+      }catch ( InputMismatchexpection e){
+        Scanner.nexLine();
+        system,out.println(number + "is not a number number, try again");
+      }
+    }  s
+    return number;
+    }
+
+
+    try{
+      //Java-satser som kan kasta undantag
+    }catch(...){
+      //Första undantaget
+    }catch(...){
+      //Andra untantaget
+    }catch(...){
+      //Tredje undantaget
+    }

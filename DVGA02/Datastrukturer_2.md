@@ -67,11 +67,11 @@ I Paktetet java.util finns gränssnittet:
 
 #### ADT:n Lista
 
-###### Exempel på egenskaper:
+##### Exempel på egenskaper:
 * En ordnad sekvens av element.
 * Kan innehålla et obegränast antal element
 
-###### Exempel på operationer:
+##### Exempel på operationer:
 * Skapa en tom Lista
 * Kolla om ett element finns i listan
 * Lägg till ett element op en viss plats i listan.
@@ -189,7 +189,7 @@ Bur man implemeterar en ADT spelar inte någon större roll så länge man får 
 
 Exempelvis kan ADT:n Stack implementeras med hjälp av:
 * lista
-* array 
+* array
 * noder
 
 #### Stackimplementation med Lista

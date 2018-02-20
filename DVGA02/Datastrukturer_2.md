@@ -180,3 +180,21 @@ I Paktetet java.util finns gränssnittet:
     Pre: sant
     Post: resultat = sant om stacken är tom, annars falskt
     isEmpty(ut: boolskt värde)
+
+### Iplememtationer av ADT:er
+
+En ADT kan impementeras på en många olika sätt.
+
+Bur man implemeterar en ADT spelar inte någon större roll så länge man får med de egenskaper och operationer som agetts i ADT:n
+
+Exempelvis kan ADT:n Stack implementeras med hjälp av:
+* lista
+* array
+* noder
+
+#### Stackimplementation med Lista
+* En javaListKlass (DefaultListmodel) används för att spara element i stacken.
+* Defailt List mode kan användas tillsammasn med Jlist för att visa element i ett GUI.
+* Toppen på stacken har valts till index 0.
+
+För kod se föreläsning 12, datastrukturer 2. Sida 17.

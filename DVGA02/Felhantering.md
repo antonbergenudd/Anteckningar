@@ -1,4 +1,5 @@
 # Felhantering
+###### 19-02-2018/20-02-2018
 
 ### När det går fel
 När vi använder Input/Output från/till användaren kan saker och ting gå fel som är utanför programmerarns kontroll.

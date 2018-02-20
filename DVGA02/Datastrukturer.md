@@ -1,4 +1,5 @@
 # Datastrukturer DVGA02
+###### 19-02-2018
 
 ## ADT:er och datastrukturer
 Begreppen är kopplade till varandra men står för olika saker

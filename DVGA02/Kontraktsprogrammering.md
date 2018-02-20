@@ -1,7 +1,5 @@
 # Kontraktsprogrammering
-
-
-
+###### 19-02-2018
 ### Programmera med kontrakt
 Samma som i vardagen, två parter(minst), bägge följer sin del
 

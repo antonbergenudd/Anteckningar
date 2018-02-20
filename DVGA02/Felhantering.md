@@ -41,7 +41,7 @@ Metod för säker inmatning av heltal:
         Scanner.nexLine();
         system,out.println(number + "is not a number number, try again");
       }
-    }  s
+    }
     return number;
     }
 
@@ -54,4 +54,44 @@ Metod för säker inmatning av heltal:
       //Andra untantaget
     }catch(...){
       //Tredje undantaget
+    }
+
+#### Hur kastar man undantag?
+
+##### Med If-sats och error:
+
+    public int division(int taljare, int namnare)
+    {
+        int kvot = 0;
+        if (namnare == 0){
+          System.err.println("Nämnare kan inte vara 0.");
+          System.exit(1);
+        }
+        else
+          kvot = taljare/namnare;
+        return kvot;
+    }
+
+##### Med If-sats och throw:
+
+    public int division(int taljare, int namnare){
+
+      int kvot = 0;
+      if(namnare == 0)
+      {
+        throw new IllegalArgumentExpection("Nämnaren kan inte vara 0.")
+      }
+      else
+        kvot = taljare/namnare;
+      return kvot;
+    }
+
+##### Med Kontrakts Programmering:
+
+    //pre: namnare !=0
+    //Post kvot = taljare och namnare
+
+    public int division(int taljare, int namnare){
+      int kvot = taljare/namnare;
+      return kvot;
     }

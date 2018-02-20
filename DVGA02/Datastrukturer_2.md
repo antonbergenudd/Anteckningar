@@ -9,7 +9,7 @@
 * Skapa en tom mängd
 * Kolla om ett element finns i mängden
 * Lägg till ett element i mängaden. Observera att dubletter ej får förekomma i mängden
-* Ta bort ett element ur mängden. Observera att elementet måste finnas i mängden för att man ska kunna ta bort det
+* Ta bort ett element ur mängden. Observera att elementet måste finnas i mängden för att man ska kunna ta bort det  
 * Kolla om mängden är tom eller inte
 * Kolla hur mpnga element som finns i mängden
 
@@ -130,7 +130,7 @@ I Paktetet java.util finns gränssnittet:
     Beskrivning: Skapar en tom kö
     Pre: sant
     Post: en ny om kö har skapats
-    Kö();
+    Kö()
 ##### Lägg till element
     Beskrivning: Lägger till ett element i kön
     Pre: sant
@@ -179,7 +179,7 @@ I Paktetet java.util finns gränssnittet:
     Beksrivning: Kollar om stacken är tom
     Pre: sant
     Post: resultat = sant om stacken är tom, annars falskt
-    isEmpty(ut: boolskt värde)  
+    isEmpty(ut: boolskt värde)
 
 ### Implementationer av ADT:er
 

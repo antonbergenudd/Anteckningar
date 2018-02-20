@@ -185,7 +185,7 @@ I Paktetet java.util finns gränssnittet:
 
 En ADT kan impementeras på en många olika sätt.
 
-Bur man implemeterar en ADT spelar inte någon större roll så länge man får med de egenskaper och operationer som agetts i ADT:n
+Hur man implemeterar en ADT spelar inte någon större roll så länge man får med de egenskaper och operationer som agetts i ADT:n
 
 Exempelvis kan ADT:n Stack implementeras med hjälp av:
 * lista

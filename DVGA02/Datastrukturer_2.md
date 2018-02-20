@@ -181,7 +181,7 @@ I Paktetet java.util finns gränssnittet:
     Post: resultat = sant om stacken är tom, annars falskt
     isEmpty(ut: boolskt värde)  
 
-### Iplementationer av ADT:er
+### Implementationer av ADT:er
 
 En ADT kan impementeras på en många olika sätt.
 

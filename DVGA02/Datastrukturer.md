@@ -46,7 +46,7 @@ I java finns flera datastrukturer som modellerar en lista:
 	 LinkedList (Bygger på länkade noder)
 
 
-### DT:n Lista
+### ADT:n Lista
 Datat i en lista utgörs av en ordnad sekvens av element.
 Operationer utgörs exempelvis av:
 

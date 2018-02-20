@@ -26,7 +26,7 @@ Exempel på egenskaper
     beskrivning: Kollar om ett element finns i mängden.
     Pre: Sant.
     Post: resulatat = sant om elementet finns i mängden, annars falsk.
-    containts(in: elements, ut: boolskt värde)
+    contains(in: elements, ut: boolskt värde)
 
 ##### Lägger till ett element
     Beskrivning: lägger till ett element i mängden.

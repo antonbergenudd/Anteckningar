@@ -1,9 +1,9 @@
 #Datastrukturer 2, del 2
 ###### 2018-03-05
 
-### Repetition på föregående föreläsning, se Datastrukturer_2
+## Repetition på föregående föreläsning, se Datastrukturer_2
 
-#### We want to separate what tan abstraction is from how it is implemented
+### We want to separate what an abstraction is from how it is implemented
 
 - implementations of the same abstraction can be substituted freely
 
@@ -27,18 +27,22 @@
 ### Client code is not affected by a change
 - neither in the rep(the data structure) nor in the code (algorithms)
 
-## Benefitts of Datat Abstactions: Locality
+## Benefits of Data Abstractions: Locality
 
-### The implemenetr of an absttaction know whatt is needed
+### The implementer of an abstraction know what is needed
 - Described in the specification
 - No interactions or only limited interacting are needed with programmers of other modules
 
-### The implementer of a client module knows whatt ot expect
+### The implementer of a client module knows what ot expect
 - Namely the behavior described by the specification
 
-### hte program can be sttudied one mnodule at a time
+### The program can be studied one module at a time
 - Specifications are much smaller than implementations
 - Determine wha tit does and whether it does the right thing
 - Ignore both client modules, and modules that it uses
 ### Program modification can be done module by module
 - Improve performance, correct an error, provide extended facilities without affecting other modules
+
+
+##  Abstract Data Type: Algebraic Specification &&  Abstract Data Type: Functions && Transition to Abstracts Class
+- Se powerpoint för beskrivning av hur en Stack ADT och dess funktioner beskrivs formelt.

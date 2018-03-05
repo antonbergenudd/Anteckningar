@@ -1,8 +1,6 @@
 # Datastrukturer 2, del 2
 ###### 2018-03-05
 
-## Repetition på föregående föreläsning, se Datastrukturer_2
-
 ### We want to separate what an abstraction is from how it is implemented
 
 - Implementations of the same abstraction can be substituted freely

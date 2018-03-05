@@ -1,4 +1,4 @@
-# Datastrukturer DVGA02
+# Datastrukturer
 ###### 19-02-2018
 
 ## ADT:er och datastrukturer

@@ -5,11 +5,11 @@
 
 ### We want to separate what an abstraction is from how it is implemented
 
-- implementations of the same abstraction can be substituted freely
+- Implementations of the same abstraction can be substituted freely
 
 ### The implementation of a data object is concerned with how that object is represented in the memory of a computer
 
-- this information is called the representation, or rep for short
+- This information is called the representation, or rep for short
 
 ### We need a way of changing the representation without having to change all client programs.
 
@@ -21,11 +21,11 @@
 
 ## Implementation of a Data Abstraction
 ### To implement or re-implement the data abstraction
-- define the rep
-- implement the operations in terms of it
+- Define the rep
+- Implement the operations in terms of it
 
 ### Client code is not affected by a change
-- neither in the rep(the data structure) nor in the code (algorithms)
+- Neither in the rep(the data structure) nor in the code (algorithms)
 
 ## Benefits of Data Abstractions: Locality
 

@@ -1,4 +1,4 @@
-#Datastrukturer 2, del 2
+# Datastrukturer 2, del 2
 ###### 2018-03-05
 
 ## Repetition på föregående föreläsning, se Datastrukturer_2

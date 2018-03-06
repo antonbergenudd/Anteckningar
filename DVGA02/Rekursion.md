@@ -81,7 +81,6 @@ vilket innebär att metoden anrioar sig själv enbart en gång och då sist i me
           return linearSearch(a, startpos +1, key);
       }
 ## Vad ska man använda?
-- Om det alltid är möjligt att använda antningen iteration eller rekursion vilken ska man välja? Detta är en designfråga och för att göra rätt val bör man ställa sig två frågor:
   - passar iteration eller rekursion bäst till problemet?
   - om rekursion är bäst lämpat är det värt kostnaden i minskad effektivitet?
   ---
@@ -98,6 +97,6 @@ vilket innebär att metoden anrioar sig själv enbart en gång och då sist i me
 ### Quicksort
 - Detta är den snabbaste sorteringen vi känner till
 - Denna sorteringsalgoritm är självupprepande och har följande steg:
-  1. Välj ett element, kallat pivotlement, ur listan.
-  - Ordna om listan så att alla element som är mindre än pivotelementet kommer före detta, och så att alla element som är större än pivotelementet kommer efter detta. pivotelementet har nu fått sin rätta platts
-  - Sortera rekurvist de två dellistorna, dvs med just denna algoritm
+  - 1) Välj ett element, kallat pivotlement, ur listan.
+  - 2) Ordna om listan så att alla element som är mindre än pivotelementet kommer före detta, och så att alla element som är större än pivotelementet kommer efter detta. pivotelementet har nu fått sin rätta platts
+  - 3) Sortera rekurvist de två dellistorna, dvs med just denna algoritm

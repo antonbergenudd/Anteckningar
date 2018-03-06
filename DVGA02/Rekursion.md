@@ -32,3 +32,62 @@ Reukursion är en teknik för att lösa problem som innehåller en eller flera p
       else return n * factorial(n-1);
 
     }
+
+## Iteration eller Reukursion
+
+- Rekursionen i n-fakultet problemet är en speciell sorts rekursion som kallas svansrekursion (tail Reukursion),
+vilket innebär att metoden anrioar sig själv enbart en gång och då sist i metoden.
+
+- Att omvandal en svansrekursion till en iteration är lätt, så lätt att till och med kompilatorer kan göra det.
+- Andra typer av rekursion kan också omvandlas till iterion, men omvandlingsprocessen och koden är i allmänhet mer komplex
+- Den omvända processen att omvandla en iterion till en rekursion går alltid att göra.
+
+### Exempelkod vid beräkning av summa av heltal i en array
+- Iterativ metod:
+    public int sim(int[] a){
+      int summa = 0;
+      for (int i=0; i< a.length(); i++){
+        summa += a[i];
+      }
+        return summa;
+    }
+- Rekruvis metod
+    public int sum(int[] a, int startPos){
+      if (startPos >= a.length())
+        return 0;
+      else
+        return a[startPos] + sum(a, starPos +1);    
+    }
+### Exempelkod vid linärsökning
+- Iterativ metod:
+    public int linearSearch(int[] a, int key){
+      int pos = 0;
+      while(pos < a.length() && a[pos] != key)
+        pos++;
+      return (pos < a.length) ? pos : 1;
+    }
+- Rekursiv metod:
+    public int linearSearch(int[] a, int startPos, int key){
+      if (startPos >= a.length())
+        return 1;
+      else if (a[starPos] == key)
+        return startpos;
+      else
+        return linearsearch(a, startpos +1, key)
+    }
+
+## Vad ska man använda?
+- Om det alltid är möjligt att använda antningen iteration eller rekursion vilken ska man välja? Detta är en deisgnfråga och för att göra rätt val bör man ställa sig två frågor:
+  - passar iteration eller rekursion bäst till problemet?
+  - om rekursion är bäst lämpat är det värt kostnaden i minskad effektivitet?
+  ---
+- Rekursion passar bäst för problem som är naturligt självupprepande som tornen i Hanoi. Koden blir lättare att ksriva och läsa och som en följd av detta lättare att felsöka och underhålla
+- Rekursion är långsammare eftersom flera metodanrop är aktiverade samtidigt och systemet måste hantera alla variabler i systemet.
+
+## Rekursiva sorteringsmetoder
+### Mergesort
+- Denna sorteringsalgoritm är självipprepande och har följande steg.
+  1. Dela upp listan i två ungefär lika stora listor
+  2. Sortera rekurvist de två dellistorna, dvs med just denna algoritm
+  3. Foga samman (merge) de två sorterade dellistorna till en sorterad lista.
+###

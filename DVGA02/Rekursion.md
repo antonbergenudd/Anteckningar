@@ -73,7 +73,7 @@ vilket innebär att metoden anrioar sig själv enbart en gång och då sist i me
       else if (a[starPos] == key)
         return startpos;
       else
-        return linearsearch(a, startpos +1, key)
+        return linearSearch(a, startpos +1, key)
     }
 
 ## Vad ska man använda?
@@ -87,7 +87,7 @@ vilket innebär att metoden anrioar sig själv enbart en gång och då sist i me
 ## Rekursiva sorteringsmetoder
 ### Mergesort
 - Denna sorteringsalgoritm är självipprepande och har följande steg.
-  - 1. Dela upp listan i två ungefär lika stora listor
-  - 2. Sortera rekurvist de två dellistorna, dvs med just denna algoritm
-  - 3. Foga samman (merge) de två sorterade dellistorna till en sorterad lista.
+  - 1) Dela upp listan i två ungefär lika stora listor
+  - 2) Sortera rekurvist de två dellistorna, dvs med just denna algoritm
+  - 3) Foga samman (merge) de två sorterade dellistorna till en sorterad lista.
 ###

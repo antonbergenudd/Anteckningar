@@ -31,11 +31,12 @@ Reukursion är en teknik för att lösa problem som innehåller en eller flera p
     public long factorial(int n){
       if( n == 1)
         return 1;
-      else return n * factorial(n-1);
+      else
+        return n * factorial(n-1);
 
     }
 
-## Iteration eller Reukursion
+## Iteration eller Rekursion
 
 - Rekursionen i n-fakultet problemet är en speciell sorts rekursion som kallas svansrekursion (tail Rekursion),
 vilket innebär att metoden anrioar sig själv enbart en gång och då sist i metoden.
@@ -54,7 +55,7 @@ vilket innebär att metoden anrioar sig själv enbart en gång och då sist i me
         }
           return summa;
       }
-- Rekruvis metod
+- Rekursiv metod
       public int sum(int[] a, int startPos){
         if (startPos >= a.length())
           return 0;
@@ -80,14 +81,15 @@ vilket innebär att metoden anrioar sig själv enbart en gång och då sist i me
         else
           return linearSearch(a, startpos +1, key);
       }
+
 ## Vad ska man använda?
-  - passar iteration eller rekursion bäst till problemet?
-  - om rekursion är bäst lämpat är det värt kostnaden i minskad effektivitet?
-  ---
+- passar iteration eller rekursion bäst till problemet?
+- om rekursion är bäst lämpat är det värt kostnaden i minskad effektivitet?
+
 - Rekursion passar bäst för problem som är naturligt självupprepande som tornen i Hanoi. Koden blir lättare att ksriva och läsa och som en följd av detta lättare att felsöka och underhålla
 - Rekursion är långsammare eftersom flera metodanrop är aktiverade samtidigt och systemet måste hantera alla variabler i systemet.
 
-## Rekursiva sorteringsmetoderkuk
+## Rekursiva sorteringsmetoder
 ### Mergesort
 - Denna sorteringsalgoritm är självipprepande och har följande steg.
   - 1) Dela upp listan i två ungefär lika stora listor

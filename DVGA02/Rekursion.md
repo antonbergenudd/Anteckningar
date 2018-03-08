@@ -38,9 +38,9 @@ Reukursion är en teknik för att lösa problem som innehåller en eller flera p
 ## Iteration eller Rekursion
 
 - Rekursionen i n-fakultet problemet är en speciell sorts rekursion som kallas svansrekursion (tail Rekursion),
-vilket innebär att metoden anrioar sig själv enbart en gång och då sist i metoden.
+vilket innebär att metoden anropar sig själv enbart en gång och då sist i metoden.
 
-- Att omvandal en svansrekubajsrsion till en iteration är lätt, så lätt att till och med kompilatorer kan göra det.
+- Att omvandal en svansrekursion till en iteration är lätt, så lätt att till och med kompilatorer kan göra det.
 - Andra typer av rekursion kan också omvandlas till iterion, men omvandlingsprocessen och koden är i allmänhet mer komplex
 - Den omvända processen att omvandla en iterion till en rekursion går alltid att göra.
 

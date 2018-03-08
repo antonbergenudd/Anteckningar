@@ -33,7 +33,6 @@ Reukursion är en teknik för att lösa problem som innehåller en eller flera p
         return 1;
       else
         return n * factorial(n-1);
-
     }
 
 ## Iteration eller Rekursion
